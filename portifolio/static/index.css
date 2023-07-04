@@ -13,7 +13,7 @@
     font-family: monospace;
     font-weight: 300;
     font-size: larger;
-    margin-right: 100px;
+    margin-left: 50px;
 }
 .Portifolio-h1{
     text-align: center;
@@ -22,6 +22,7 @@
 }
 .img{
     margin-left: 250px;
+    width: 350px;
 }
 
 .fa-linkedin {
@@ -58,6 +59,7 @@
 {
     /*background-color: #eee;*/
     border-collapse: collapse;
+    width: 100%;
 }
 
 .myTable th
@@ -72,5 +74,59 @@
     padding: 4px;
 }
 .web-project{
-    margin-left: 125px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.kisan-img{
+    height:165px;
+}
+@media(max-width:450px){
+    .desp{
+        font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+        font-style: italic;
+        font-family: monospace;
+        font-weight: 300;
+        font-size: larger;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .img{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 40px;
+        width: 60px;
+        text-decoration: none;
+        margin: 5px 30px;
+        
+    }
+    .kisan-img{
+        height: 180px;
+    }
+    .web-project{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .myTable{
+        margin: 0px;
+        margin-left: 0px;
+    }
+    
+.myTable td, .myTable th
+{
+    padding: 0px;
+}
+.myTable th
+{
+    /* background-color: #000;*/
+    color: Black;
+    width: 50%;
+}
+.main-h1{
+    margin-top: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+}
 }
